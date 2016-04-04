@@ -1,0 +1,30 @@
+{
+  "name": "ua-event-aggregator",
+  "version": "1.0.0",
+  "authors": [
+    "Reinier Brummelkamp <reinier@urbanautomation.co.za>"
+  ],
+  "description": "Event aggregator component for the Solitude framework",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "ua-event-aggregator"
+  ],
+  "main": "EventAggregator.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/reinier-brummelkamp/ua-event-aggregator/",
+  "ignore": [
+    "/.gitattributes",
+    "/.gitignore",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
